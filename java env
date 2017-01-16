@@ -1,0 +1,8 @@
+1. environment param
+      New    JAVA_HOME  D:\software\ibm_sdk80
+      New    CLASSPATH  .;%JAVA_HOME%\lib;%JAVA_HOME%\lib\tools.jar
+      Add to Path  %JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;
+2. test
+      open cmd
+      write java -version
+      if the information of java`s version is showed, The java is installed successfully.
