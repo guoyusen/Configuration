@@ -1,0 +1,9 @@
+if database cannot be created successfully
+   then open DB2 command window by admin
+   execute  
+  	db2stop
+	db2set DB2_CREATE_DB_ON_PATH=YES
+	db2start
+
+db2 list db directory
+db2 connect to db2name user ... using ...
