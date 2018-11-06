@@ -1,0 +1,20 @@
+java -version でJAVAの環境を確保
+http://maven.apache.org/download.html　最新のMAVENをダウンロード
+unzip
+maven環境変数設定
+  #windows 
+  M2_HOME=C:\Program Files\Apache Software Foundation\apache-maven-3.2.5
+  M2=%M2_HOME%\bin
+  MAVEN_OPTS=-Xms256m -Xmx512m
+  
+  add ;%M2% to path
+  
+  #linux
+  export M2_HOME=/usr/local/apache-maven/apache-maven-3.2.5
+  export M2=$M2_HOME/bin
+  export MAVEN_OPTS=-Xms256m -Xmx512m
+  
+  export PATH=M2:PATH
+  
+ 
+cmd mvn -version
