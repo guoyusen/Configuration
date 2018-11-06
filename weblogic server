@@ -1,0 +1,4 @@
+1. java -jar fmw_12.2.1.3.0_wls_quick.jar ORACLE_HOME=<location>
+2. CREATING A DOMAIN WITH THE CONFIGURATION WIZARD
+2.1 Windows > <ORACLE_HOME>\oracle_common\common\bin\config.cmd
+3. {ORACCLE_HOME}\user_projects\domains\base_domain\startWebLogic.cmd
