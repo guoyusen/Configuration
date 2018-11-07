@@ -4,9 +4,9 @@
      -- jre
 2. install jdk and jre into the palce where has the same name build just before;
 3. environment param
-      New    "JAVA_HOME"    "..\software\java\jdk"
-      New    "JCLASSPATH"J  ".;%JAVA_HOME%\lib;%JAVA_HOME%\lib\tools.jar"
-      Add to "Path"         "%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;"
+      New    "JAVA_HOME"    "...\java\jdk"
+      New    "CLASSPATH"  ".;%JAVA_HOME%\lib;%JAVA_HOME%\jre\lib"
+      Add to "Path"         "%JAVA_HOME%\bin"
 2. test
       win+R  cmd
       write  "java -version"
