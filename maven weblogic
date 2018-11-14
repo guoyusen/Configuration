@@ -1,0 +1,10 @@
+mvn install:install-file -DpomFile=oracle-maven-sync-12.2.1.pom -Dfile=oracle-maven-sync-12.2.1.jar
+mvn com.oracle.maven:oracle-maven-sync:push -DoracleHome=E:\weblogic -Doracle-maven-sync.testingOnly=false
+
+mvn archetype:generate
+    -DarchetypeGroupId=com.oracle.weblogic.archetype
+    -DarchetypeArtifactId=basic-webapp
+    -DarchetypeVersion=12.2.1-3-0
+    -DgroupId=org.mycompany
+    -DartifactId=my-basic-webapp-project
+    -Dversion=1.0-SNAPSHOT
